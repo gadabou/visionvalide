@@ -4,6 +4,7 @@
 
 
 
+
 @section('carousel')
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
@@ -108,12 +109,12 @@
             <div class="col-lg-7">
                 <div class="section-title mb-4">
                     <!-- Titre avec trait dynamique -->
-                    <h5 class="position-relative d-inline-block text-uppercase">About Us</h5>
-                    <h1 class="display-5 mb-0">The World's Best Dental Clinic That You Can Trust</h1>
+                    <h5 class="position-relative d-inline-block text-uppercase">Qui sommes-nous ?</h5>
+                    <h1 class="display-5 mb-0">CLINIQUE VISION VALIDE</h1>
                 </div>
                 <!-- Sous-titre et description -->
                 <h4 class="text-body fst-italic mb-4">
-                    Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore
+                    L’objectif de la clinique vision valide, est de proposer aux usagers de la région des savanes et au-delà, un service libéral, hautement qualitatif, permettant de répondre à la totalité des besoins en ophtalmologie. Une attention toute particulière est portée au degré d’équipements techniques ainsi qu’à la complémentarité et la synergie des professionnels. Le service ophtalmologique de la clinique vision valide propose à ses patients une offre personnalisée de soins humains, de qualité et innovants.
                 </h4>
                 <p class="mb-4">
                     Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.

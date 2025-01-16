@@ -49,21 +49,21 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="{{route('index')}}" class="nav-item nav-link active">Accueil</a>
-                <a href="{{route('about')}}" class="nav-item nav-link">A propos</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">A propos</a>
                     <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                        <a href="team.html" class="dropdown-item">Our Dentist</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="appointment.html" class="dropdown-item">Appointment</a>
+                        <a href="{{route('about')}}" class="dropdown-item">Nos objectis</a>
+                        <a href="team.html" class="dropdown-item">Notre équipe</a>
+                        <a href="appointment.html" class="dropdown-item">Programmes</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="service.html" class="nav-item nav-link">Boutique</a>
+                <a href="service.html" class="nav-item nav-link">Activités</a>
+
+                <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
-            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
+            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Prendre rendez-vous</a>
         </div>
     </nav>
     <!-- Navbar End -->
