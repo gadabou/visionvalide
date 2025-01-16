@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
-    --secondary: #F57E57;
+    --primary: #4db925;
+    --secondary: #f4d73b;
     --light: #EEF9FF;
     --dark: #091E3E;
 }
@@ -200,7 +200,7 @@ h6,
 }
 
 .appointment-form {
-    background: rgba(6, 163, 218, .7);
+    background: rgba(77, 185, 37, .7);
 }
 
 .service-item img,
@@ -222,7 +222,7 @@ h6,
     bottom: 0;
     left: 15px;
     right: 15px;
-    border-radius:100px / 15px;
+    border-radius: 100px / 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .7);
     opacity: 0;
     transition: .5s;
@@ -233,14 +233,94 @@ h6,
 .service-item:hover .bg-light::after {
     opacity: 1;
 }
+/*Pour le banner*/
+.banner {
+    margin-bottom: 5rem;
+}
+
+.bg-primary {
+    background-color: #4db925 !important;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bg-primary h3, 
+.bg-primary h6, 
+.bg-primary p, 
+.bg-primary .btn {
+    color: #ffffff;
+}
+
+.bg-primary .btn:hover {
+    background-color: #f4d73b;
+    color: #4db925;
+}
+
+.bg-dark {
+    background-color: #091E3E !important; /* Couleur sombre déjà définie */
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bg-dark h3, 
+.bg-dark input, 
+.bg-dark select, 
+.bg-dark .btn {
+    color: #ffffff;
+}
+
+.bg-dark input::placeholder, 
+.bg-dark select::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-dark .btn:hover {
+    background-color: #f4d73b;
+    color: #4db925;
+}
+
+.bg-secondary {
+    background-color: #f4d73b !important;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bg-secondary h3, 
+.bg-secondary p, 
+.bg-secondary h2 {
+    color: #ffffff;
+}
+
+.bg-secondary h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bg-secondary:hover {
+    background-color: #4db925;
+    color: #f4d73b;
+}
+
+.btn-light {
+    background-color: #ffffff !important;
+    color: #4db925 !important;
+    border: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-light:hover {
+    background-color: #4db925 !important;
+    color: #ffffff !important;
+}
+/*fin banner*/
 
 .bg-offer {
-    background:url(../img/carousel-1.jpg) center center no-repeat;
+    background: url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .offer-text {
-    background: rgba(6, 163, 218, .85);
+    background: rgba(77, 185, 37, .85);
 }
 
 .price-carousel .owl-nav {
@@ -285,7 +365,7 @@ h6,
 }
 
 .testimonial-carousel {
-    background: rgba(6, 163, 218, .85);
+    background: rgba(77, 185, 37, .85);
 }
 
 .testimonial-carousel .owl-nav {
@@ -322,4 +402,240 @@ h6,
 .testimonial-carousel .owl-item img {
     width: 120px;
     height: 120px;
+}
+
+/*Css de About*/
+/* Container global */
+.container-fluid.py-5 {
+    background-color: #f9f9f9; /* Couleur d'arrière-plan douce */
+    padding: 3rem 0;
+}
+
+/* Section title */
+.section-title h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4db925; /* Vert principal */
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.section-title h5::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #f4d73b; /* Jaune secondaire */
+}
+
+.section-title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #091E3E; /* Couleur sombre pour le titre */
+}
+
+/* Sous-titre */
+.text-body.fst-italic {
+    color: #6c757d; /* Gris doux */
+    font-style: italic;
+}
+
+/* Paragraphe */
+.container p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+/* Liste d'avantages */
+.row.g-3 h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #091E3E;
+}
+
+.fa-check-circle {
+    color: #4db925; /* Vert principal pour les icônes */
+}
+
+/* Bouton d'appel à l'action */
+.btn-primary {
+    background-color: #4db925; /* Vert principal */
+    color: #ffffff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f4d73b; /* Jaune secondaire */
+    color: #091E3E;
+}
+
+/* Image */
+.col-lg-5 img {
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Effet d'ombre subtile */
+}
+
+/* Animation */
+.wow {
+    visibility: visible !important; /* S'assurer que les animations s'affichent correctement */
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+
+
+
+/* Couleur des icônes en jaune */
+.fa-check-circle {
+    color: #f4d73b; /* Jaune */
+    margin-right: 10px;
+    transition: transform 0.3s ease, color 0.3s ease; /* Animation pour l'interaction */
+}
+
+/* Animation au survol */
+.fa-check-circle:hover {
+    transform: scale(1.2);
+}
+
+/* Style pour ABOUT US avec un trait dynamique */
+.section-title h5 {
+    position: relative;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4db925; /* Vert principal */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-title h5::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f4d73b; /* Jaune */
+    animation: dynamic-line 1.5s infinite;
+}
+
+/* Animation du trait dynamique */
+@keyframes dynamic-line {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 50px;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+
+/* Style global des icônes */
+.fa {
+    font-size: 1.5rem; /* Taille par défaut des icônes */
+    transition: all 0.3s ease; /* Animation pour les effets de survol */
+}
+
+/* Couleur et style des icônes */
+.fa-check-circle {
+    color: #4db925; /* Vert principal */
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+
+/* Icônes au survol */
+.fa-check-circle:hover {
+    color: #f4d73b; /* Jaune secondaire au survol */
+    transform: scale(1.2); /* Agrandissement subtil */
+}
+
+/* Alignement avec le texte */
+h5 .fa {
+    vertical-align: middle; /* Alignement des icônes avec le texte */
+}
+
+/* Icônes spécifiques aux autres sections (si applicable) */
+.fa-tooth {
+    color: #4db925; /* Vert principal */
+    font-size: 2rem; /* Taille augmentée pour mettre en avant */
+    margin-right: 10px;
+}
+
+.fa-tooth:hover {
+    color: #f4d73b; /* Jaune secondaire au survol */
+    transform: rotate(15deg); /* Rotation pour un effet interactif */
+}
+
+.fa-phone {
+    color: #f4d73b; /* Jaune secondaire */
+    font-size: 1.8rem;
+}
+
+.fa-phone:hover {
+    color: #4db925; /* Vert principal au survol */
+    transform: scale(1.1); /* Agrandissement subtil */
+}
+
+/*Pour les services*/
+.section-title h5 {
+    color: #4db925 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+
+/*Pour le Pricing*/
+/* Couleur des prix */
+.price-carousel .price-item .text-warning h2 {
+    color: #ffc107; /* Jaune Bootstrap */
+}
+
+/* Couleur des icônes */
+.price-carousel .d-flex i {
+    color: #ffc107; /* Jaune Bootstrap */
+}
+
+
+
+
+/* Icônes de la liste Quick Links et Popular Links */
+.container-fluid.bg-dark .bi {
+    color: #ffc107 !important; /* Couleur jaune */
+}
+
+/* Icônes des sections Get In Touch */
+.container-fluid.bg-dark .bi-geo-alt,
+.container-fluid.bg-dark .bi-envelope-open,
+.container-fluid.bg-dark .bi-telephone {
+    color: #ffc107 !important; /* Couleur jaune */
+}
+
+/* Icônes des boutons Follow Us */
+.container-fluid.bg-dark .btn-primary i {
+    color: #ffc107 !important; /* Couleur jaune */
+}
+
+
+
+
+/* Couleur de fond jaune pour le bouton */
+.btn-contact {
+    background-color: #f4d73b; /* Jaune */
+    border: none; /* Enlever la bordure par défaut */
+    color: white; /* Texte en blanc */
+}
+
+/* Effet de survol en vert */
+.btn-contact:hover {
+    background-color: #4db925; /* Vert */
+    color: white; /* Conserver le texte en blanc */
 }
