@@ -20,16 +20,16 @@
         <div class="row gx-0">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Heure d'ouverture: Lun - Mar : 6.00 am - 10.00 pm, Dimanche Fermé </small>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-end">
                 <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>cliniquevisionvalide@gmail.com</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+228 92573030</p>
                     </div>
                 </div>
             </div>
@@ -53,17 +53,17 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">A propos</a>
                     <div class="dropdown-menu m-0">
                         <a href="{{route('about')}}" class="dropdown-item">Nos objectis</a>
-                        <a href="team.html" class="dropdown-item">Notre équipe</a>
-                        <a href="appointment.html" class="dropdown-item">Programmes</a>
+                        <a href="{{route('team')}}" class="dropdown-item">Notre équipe</a>
+                        <a href="{{route('appointment')}}" class="dropdown-item">Programmes</a>
                     </div>
                 </div>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="service.html" class="nav-item nav-link">Boutique</a>
-                <a href="service.html" class="nav-item nav-link">Activités</a>
+                <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
+                <a href="{{route('store')}}" class="nav-item nav-link">Boutique</a>
+                <a href="{{route('activite')}}" class="nav-item nav-link">Activités</a>
 
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Prendre rendez-vous</a>
+            <a href="{{route('appointment')}}" class="btn btn-primary py-2 px-4 ms-3">Prendre rendez-vous</a>
         </div>
     </nav>
     <!-- Navbar End -->

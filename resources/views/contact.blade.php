@@ -5,46 +5,18 @@
 
 
 @section('carousel')
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="{{asset('assets/img/carousel-1.jpg')}}" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="appointment.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="{{asset('assets/img/carousel-2.jpg')}}" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="appointment.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 hero-header mb-5">
+        <div class="row py-3">
+            <div class="col-12 text-center">
+                <h1 class="display-3 text-white animated zoomIn">Contactez Nous</h1>
+                <a href="" class="h4 text-white">Accueil</a>
+                <i class="far fa-circle text-white px-2"></i>
+                <a href="" class="h4 text-white">Contact</a>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
-    <!-- Carousel End -->
+    </div> 
+    <!-- Hero End -->
 @endsection
 
 
@@ -69,19 +41,6 @@
     <!-- Full Screen Search End -->
 
 
-    <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 hero-header mb-5">
-        <div class="row py-3">
-            <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">Contact Us</h1>
-                <a href="" class="h4 text-white">Home</a>
-                <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h4 text-white">Contact</a>
-            </div>
-        </div>
-    </div>
-    <!-- Hero End -->
-
 
     <!-- Contact Start -->
     <div class="container-fluid py-5">
@@ -91,27 +50,27 @@
                     <div class="bg-light rounded h-100 p-5">
                         <div class="section-title">
                             <h5 class="position-relative d-inline-block text-primary text-uppercase">Contact Us</h5>
-                            <h1 class="display-6 mb-4">Feel Free To Contact Us</h1>
+                            <h1 class="display-6 mb-4">N'hésitez pas à nous Contacter</h1>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Our Office</h5>
-                                <span>123 Street, New York, USA</span>
+                                <h5 class="mb-0">Notre bureau</h5>
+                                <span>Dapaong, TOGO</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Email Us</h5>
-                                <span>info@example.com</span>
+                                <h5 class="mb-0">Email </h5>
+                                <span>cliniquevisionvalide@gmail.com</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
                             <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Call Us</h5>
-                                <span>+012 345 6789</span>
+                                <h5 class="mb-0">Tél:</h5>
+                                <span>+228 92573030</span>
                             </div>
                         </div>
                     </div>
@@ -132,7 +91,7 @@
                                 <textarea class="form-control border-0 bg-light px-4 py-3" rows="5" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit">Envoyer votre message</button>
                             </div>
                         </div>
                     </form>
@@ -147,21 +106,6 @@
         </div>
     </div>
     <!-- Contact End -->
-
-
-    <!-- Newsletter Start -->
-    <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
-        <div class="container">
-            <div class="bg-primary p-5">
-                <form class="mx-auto" style="max-width: 600px;">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                        <button class="btn btn-dark px-4">Sign Up</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- Newsletter End -->
+     <br><br><br><br><br>
 
 @endsection

@@ -29,64 +29,58 @@
     <div class="container-fluid bg-primary py-5 hero-header mb-5">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">About Us</h1>
-                <a href="" class="h4 text-white">Home</a>
+                <h1 class="display-3 text-white animated zoomIn">A Propos </h1>
+                <a href="" class="h4 text-white">Accueil</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h4 text-white">About</a>
+                <a href="" class="h4 text-white">A Propos</a>
             </div>
         </div>
     </div>
     <!-- Hero End -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+   <!-- About Start -->
+   <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row g-5">
+                <!-- Section "About Us" -->
                 <div class="col-lg-7">
                     <div class="section-title mb-4">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
-                        <h1 class="display-5 mb-0">The World's Best Dental Clinic That You Can Trust</h1>
+                        <!-- Titre avec trait dynamique -->
+                        <h5 class="position-relative d-inline-block text-uppercase">Qui sommes-nous ?</h5>
+                        <h1 class="display-5 mb-0">CLINIQUE VISION VALIDE</h1>
                     </div>
-                    <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <!-- Sous-titre et description -->
+                    <h4 class="text-body fst-italic mb-4">
+                        L’objectif de la clinique vision valide, est de proposer aux usagers de la région des savanes et au-delà, un service libéral, hautement qualitatif, permettant de répondre à la totalité des besoins en ophtalmologie. Une attention toute particulière est portée au degré d’équipements techniques ainsi qu’à la complémentarité et la synergie des professionnels. Le service ophtalmologique de la clinique vision valide propose à ses patients une offre personnalisée de soins humains, de qualité et innovants.
+                    </h4>
+                    <p class="mb-4">
+                        La présence de ressource importante en personnel permet à chaque patient de bénéficier d’un bilan ophtalmologique complet, approfondi avec avis hyper-spécialisé, au cours d’une seule et même visite.
+                    </p>
+                    <!-- Liste des avantages -->
                     <div class="row g-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Bénéficier d’un contrôle de la vision</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Renouveler lunettes ou lentilles de contact</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>24/7 Opened</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Fair Prices</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Ouvert 24 Heure/24 7 Jours/ 7</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Effectuer un bilan visuel d’aptitude professionnelle.</h5>
                         </div>
                     </div>
-                    <a href="appointment.html" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Make Appointment</a>
+                    <!-- Bouton -->
+                    <a href="Prendre un rendez vous.html" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Prendre un rendez vous</a>
                 </div>
+                <!-- Image de présentation -->
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
+                            src="{{ asset('assets/img/about.jpg') }}" alt="About Us" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
-
-
-    <!-- Newsletter Start -->
-    <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
-        <div class="container">
-            <div class="bg-primary p-5">
-                <form class="mx-auto" style="max-width: 600px;">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                        <button class="btn btn-dark px-4">Sign Up</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- Newsletter End -->
-
-
+    <br><br><br><br><br>
 @endsection
