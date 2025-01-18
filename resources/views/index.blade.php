@@ -11,10 +11,10 @@
                     <img class="w-100" src="{{asset('assets/img/carousel-1.jpg')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="appointment.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Clinique Vision valide</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Une équipe motivée, volontaire et permanente</h1>
+                            <a href="Prendre un rendez vous.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Prendre un rendez vous</a>
+                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contactez-Nous</a>
                         </div>
                     </div>
                 </div>
@@ -22,10 +22,10 @@
                     <img class="w-100" src="{{asset('assets/img/carousel-2.jpg')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="appointment.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Clinique Vision valide</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Une équipe motivée, volontaire et permanente</h1>
+                            <a href="Prendre un rendez vous.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Prendre un rendez vous</a>
+                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contactez-Nous</a>
                         </div>
                     </div>
                 </div>
@@ -53,20 +53,20 @@
             <div class="row gx-0">
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
                     <div class="bg-primary d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Opening Hours</h3>
+                        <h3 class="text-white mb-3">Horaires d'ouverture</h3>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Mon - Fri</h6>
+                            <h6 class="text-white mb-0">Lundi - Vendredi</h6>
                             <p class="mb-0"> 8:00am - 9:00pm</p>
                         </div>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Saturday</h6>
+                            <h6 class="text-white mb-0">Samedi</h6>
                             <p class="mb-0"> 8:00am - 7:00pm</p>
                         </div>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Sunday</h6>
+                            <h6 class="text-white mb-0">Dimanche</h6>
                             <p class="mb-0"> 8:00am - 5:00pm</p>
                         </div>
-                        <a class="btn btn-light" href="">Appointment</a>
+                        <a class="btn btn-light" href="">Prendre un rendez vous</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
@@ -74,7 +74,7 @@
                         <h3 class="text-white mb-3">Search A Doctor</h3>
                         <div class="date mb-3" id="date" data-target-input="nearest">
                             <input type="text" class="form-control bg-light border-0 datetimepicker-input"
-                                placeholder="Appointment Date" data-target="#date" data-toggle="datetimepicker" style="height: 40px;">
+                                placeholder="Prendre un rendez vous Date" data-target="#date" data-toggle="datetimepicker" style="height: 40px;">
                         </div>
                         <select class="form-select bg-light border-0 mb-3" style="height: 40px;">
                             <option selected>Select A Service</option>
@@ -87,9 +87,9 @@
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
                     <div class="bg-secondary d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
+                        <h3 class="text-white mb-3">Prendre un rendez vous</h3>
                         <p class="text-white">Ipsum erat ipsum dolor clita rebum no rebum dolores labore, ipsum magna at eos et eos amet.</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                        <h2 class="text-white mb-0">+228 92573030</h2>
                     </div>
                 </div>
             </div>
@@ -114,23 +114,21 @@
                     L’objectif de la clinique vision valide, est de proposer aux usagers de la région des savanes et au-delà, un service libéral, hautement qualitatif, permettant de répondre à la totalité des besoins en ophtalmologie. Une attention toute particulière est portée au degré d’équipements techniques ainsi qu’à la complémentarité et la synergie des professionnels. Le service ophtalmologique de la clinique vision valide propose à ses patients une offre personnalisée de soins humains, de qualité et innovants.
                 </h4>
                 <p class="mb-4">
-                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.
-                    Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor
-                    eirmod magna dolore erat amet.
+                    La présence de ressource importante en personnel permet à chaque patient de bénéficier d’un bilan ophtalmologique complet, approfondi avec avis hyper-spécialisé, au cours d’une seule et même visite.
                 </p>
                 <!-- Liste des avantages -->
                 <div class="row g-3">
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
-                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Award Winning</h5>
-                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Professional Staff</h5>
+                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Bénéficier d’un contrôle de la vision</h5>
+                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Renouveler lunettes ou lentilles de contact</h5>
                     </div>
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>24/7 Opened</h5>
-                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Fair Prices</h5>
+                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Ouvert 24 Heure/24 7 Jours/ 7</h5>
+                        <h5 class="mb-3"><i class="fa fa-check-circle me-3"></i>Effectuer un bilan visuel d’aptitude professionnelle.</h5>
                     </div>
                 </div>
                 <!-- Bouton -->
-                <a href="appointment.html" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Make Appointment</a>
+                <a href="Prendre un rendez vous.html" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Prendre un rendez vous</a>
             </div>
             <!-- Image de présentation -->
             <div class="col-lg-5" style="min-height: 500px;">
@@ -145,8 +143,8 @@
     <!-- About End -->
 
 
-    <!-- Appointment Start -->
-    <div class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- Prendre un rendez vous Start -->
+    <div class="container-fluid bg-primary bg-Prendre un rendez vous my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
@@ -156,8 +154,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">Make Appointment</h1>
+                    <div class="Prendre un rendez vous-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
+                        <h1 class="text-white mb-4">Prendre un rendez vous</h1>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
@@ -186,18 +184,18 @@
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                            placeholder="Prendre un rendez vous Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="time" id="time1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
+                                            placeholder="Prendre un rendez vous Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Prendre un rendez vous</button>
                                 </div>
                             </div>
                         </form>
@@ -206,23 +204,23 @@
             </div>
         </div>
     </div>
-    <!-- Appointment End -->
+    <!-- Prendre un rendez vous End -->
 
 
     <!-- Service Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row g-5 mb-5">
-                <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
+                <!--div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
                     <div class="twentytwenty-container position-relative h-100 rounded overflow-hidden">
                         <img class="position-absolute w-100 h-100" src="{{asset('assets/img/before.jpg')}}" style="object-fit: cover;">
                         <img class="position-absolute w-100 h-100" src="{{asset('assets/img/after.jpg')}}" style="object-fit: cover;">
                     </div>
-                </div>
+                </div-->
                 <div class="col-lg-7">
                     <div class="section-title mb-5">
-                        <h5 class="position-relative d-inline-block  text-uppercase">Our Services</h5>
-                        <h1 class="display-5 mb-0">We Offer The Best Quality Dental Services</h1>
+                        <h5 class="position-relative d-inline-block  text-uppercase">Nos Services</h5>
+                        <h1 class="display-5 mb-0">Nous Offrons des services de Qualité</h1>
                     </div>
                     <div class="row g-5">
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
@@ -241,6 +239,7 @@
                                 <h5 class="m-0">Dental Implants</h5>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -267,9 +266,9 @@
                 </div>
                 <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                        <h3 class="text-white mb-3">Prendre un rendez vous</h3>
+                        <p class="text-white mb-3">N'hésitez pas à prendre un rendez avec la Clinique Vision Valide</p>
+                        <h2 class="text-white mb-0">+228 92573030</h2>
                     </div>
                 </div>
             </div>
@@ -286,7 +285,7 @@
                     <div class="offer-text text-center rounded p-5">
                         <h1 class="display-5 text-white">Save 30% On Your First Dental Checkup</h1>
                         <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod diam duo lorem magna sit dolore sed et.</p>
-                        <a href="appointment.html" class="btn btn-dark py-3 px-5 me-3">Appointment</a>
+                        <a href="Prendre un rendez vous.html" class="btn btn-dark py-3 px-5 me-3">Prendre un rendez vous</a>
                         <a href="" class="btn btn-light py-3 px-5">Read More</a>
                     </div>
                 </div>
@@ -306,8 +305,8 @@
                         <h1 class="display-5 mb-0">We Offer Fair Prices for Dental Treatment</h1>
                     </div>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo eirmod magna dolore erat amet</p>
-                    <h5 class="text-uppercase  wow fadeInUp" data-wow-delay="0.3s">Call for Appointment</h5>
-                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">+012 345 6789</h1>
+                    <h5 class="text-uppercase  wow fadeInUp" data-wow-delay="0.3s">Call for Prendre un rendez vous</h5>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">+228 92573030</h1>
                 </div>
                 <div class="col-lg-7">
                     <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">
@@ -324,7 +323,7 @@
                                 <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check  pt-1"></i></div>
                                 <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check  pt-1"></i></div>
                                 <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check  pt-1"></i></div>
-                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                                <a href="Prendre un rendez vous.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Prendre un rendez vous</a>
                             </div>
                         </div>
                         <div class="price-item pb-4">
@@ -340,7 +339,7 @@
                                 <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check  pt-1"></i></div>
                                 <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check  pt-1"></i></div>
                                 <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check  pt-1"></i></div>
-                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                                <a href="Prendre un rendez vous.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Prendre un rendez vous</a>
                             </div>
                         </div>
                         <div class="price-item pb-4">
@@ -356,7 +355,7 @@
                                 <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check  pt-1"></i></div>
                                 <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check  pt-1"></i></div>
                                 <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check  pt-1"></i></div>
-                                <a href="appointment.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                                <a href="Prendre un rendez vous.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Prendre un rendez vous</a>
                             </div>
                         </div>
                     </div>
@@ -401,7 +400,7 @@
                     <div class="section-title bg-light rounded h-100 p-5">
                         <h5 class="position-relative d-inline-block  text-uppercase">Our Dentist</h5>
                         <h1 class="display-6 mb-4">Meet Our Certified & Experienced Dentist</h1>
-                        <a href="appointment.html" class="btn btn-primary py-3 px-5">Appointment</a>
+                        <a href="Prendre un rendez vous.html" class="btn btn-primary py-3 px-5">Prendre un rendez vous</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
