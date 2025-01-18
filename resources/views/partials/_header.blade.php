@@ -59,7 +59,7 @@
                 </div>
                 <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
                 <a href="{{route('store')}}" class="nav-item nav-link">Boutique</a>
-                <a href="{{route('activite')}}" class="nav-item nav-link">Activités</a>
+                <a href="{{route('activite')}}" class="nav-item nav-link">Pathologie</a>
 
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
