@@ -2,9 +2,6 @@
 @section('title', 'Accueil')
 
 
-
-
-
 @section('carousel')
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
