@@ -18,7 +18,7 @@
         </li>
 
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="{{ route('home') }}" class="nav-link">Interface client</a>
+            <a href="{{ route('index') }}" class="nav-link">Interface client</a>
         </li>
 
         @auth

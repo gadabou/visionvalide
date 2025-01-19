@@ -17,7 +17,7 @@
     <div class="login-box">
         <div class="card card-outline card-success">
             <div class="card-header text-center">
-                <a href="" class="h1"><b>ABW Market</b>.</a>
+                <a href="" class="h1"><b>CLINIQUE VISION VALIDE</b>.</a>
             </div>
             <div class="card-body">
                 <p class="login-box-msg text-secondary">Connectez-vous pour démarrer la session</p>
