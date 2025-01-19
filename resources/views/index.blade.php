@@ -13,8 +13,8 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Clinique Vision valide</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Une équipe motivée, volontaire et permanente</h1>
-                            <a href="Prendre un rendez vous.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Prendre un rendez vous</a>
-                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contactez-Nous</a>
+                            <a href="{{route('appointment')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Prendre un rendez vous</a>
+                            <a href="{{route('contact')}}" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contactez-Nous</a>
                         </div>
                     </div>
                 </div>
@@ -24,8 +24,8 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Clinique Vision valide</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Une équipe motivée, volontaire et permanente</h1>
-                            <a href="Prendre un rendez vous.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Prendre un rendez vous</a>
-                            <a href="" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contactez-Nous</a>
+                            <a href="{{route('appointment')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Prendre un rendez vous</a>
+                            <a href="{{route('contact')}}" class="btn btn-contact btn-secondary py-md-3 px-md-5 animated slideInRight">Contactez-Nous</a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                             <h6 class="text-white mb-0">Dimanche</h6>
                             <p class="mb-0"> 8:00am - 5:00pm</p>
                         </div>
-                        <a class="btn btn-light" href="">Prendre un rendez vous</a>
+                        <a class="btn btn-light" href="{{route('appointment')}}">Prendre un rendez vous</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
@@ -82,7 +82,7 @@
                             <option value="2">Service 2</option>
                             <option value="3">Service 3</option>
                         </select>
-                        <a class="btn btn-light" href="">Search Doctor</a>
+                        <a class="btn btn-light" href="{{route('team')}}">Search Doctor</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">

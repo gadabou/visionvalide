@@ -32,7 +32,7 @@
                 <h1 class="display-3 text-white animated zoomIn">Prendre rendez vous</h1>
                 <a href="" class="h4 text-white">Accueil</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h4 text-white">Prendere un rendez vous</a>
+                <a href="{{route('appointment')}}" class="h4 text-white">Prendere un rendez vous</a>
             </div>
         </div>
     </div>
