@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4db925;
-    --secondary: #f4d73b;
+    --primary: #00473f;
+    --secondary: #FF4500;
     --light: #EEF9FF;
     --dark: #091E3E;
 }
@@ -239,7 +239,7 @@ h6,
 }
 
 .bg-primary {
-    background-color: #4db925 !important;
+    background-color: #00473f !important;
     color: #ffffff;
     transition: background-color 0.3s ease-in-out;
 }
@@ -252,8 +252,8 @@ h6,
 }
 
 .bg-primary .btn:hover {
-    background-color: #f4d73b;
-    color: #4db925;
+    background-color: #FF4500;
+    color: #00473f;
 }
 
 .bg-dark {
@@ -275,12 +275,12 @@ h6,
 }
 
 .bg-dark .btn:hover {
-    background-color: #f4d73b;
-    color: #4db925;
+    background-color: #FF4500;
+    color: #00473f;
 }
 
 .bg-secondary {
-    background-color: #f4d73b !important;
+    background-color: #FF4500 !important;
     color: #ffffff;
     transition: background-color 0.3s ease-in-out;
 }
@@ -297,19 +297,19 @@ h6,
 }
 
 .bg-secondary:hover {
-    background-color: #4db925;
-    color: #f4d73b;
+    background-color: #00473f;
+    color: #FF4500;
 }
 
 .btn-light {
     background-color: #ffffff !important;
-    color: #4db925 !important;
+    color: #00473f !important;
     border: none;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn-light:hover {
-    background-color: #4db925 !important;
+    background-color: #00473f !important;
     color: #ffffff !important;
 }
 /*fin banner*/
@@ -320,7 +320,7 @@ h6,
 }
 
 .offer-text {
-    background: rgba(77, 185, 37, .85);
+    background: #00473f;
 }
 
 .price-carousel .owl-nav {
@@ -415,7 +415,7 @@ h6,
 .section-title h5 {
     font-size: 1rem;
     font-weight: 700;
-    color: #4db925; /* Vert principal */
+    color: #00473f; /* Vert principal */
     position: relative;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -428,7 +428,7 @@ h6,
     left: 0;
     width: 40px;
     height: 3px;
-    background-color: #f4d73b; /* Jaune secondaire */
+    background-color: #FF4500; /* Jaune secondaire */
 }
 
 .section-title h1 {
@@ -458,19 +458,19 @@ h6,
 }
 
 .fa-check-circle {
-    color: #4db925; /* Vert principal pour les icônes */
+    color: #00473f; /* Vert principal pour les icônes */
 }
 
 /* Bouton d'appel à l'action */
 .btn-primary {
-    background-color: #4db925; /* Vert principal */
+    background-color: #00473f; /* Vert principal */
     color: #ffffff;
     border: none;
     transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: #f4d73b; /* Jaune secondaire */
+    background-color: #FF4500; /* Jaune secondaire */
     color: #091E3E;
 }
 
@@ -493,7 +493,7 @@ h6,
 
 /* Couleur des icônes en jaune */
 .fa-check-circle {
-    color: #f4d73b; /* Jaune */
+    color: #FF4500; /* Jaune */
     margin-right: 10px;
     transition: transform 0.3s ease, color 0.3s ease; /* Animation pour l'interaction */
 }
@@ -508,7 +508,7 @@ h6,
     position: relative;
     font-size: 1rem;
     font-weight: bold;
-    color: #4db925; /* Vert principal */
+    color: #00473f; /* Vert principal */
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -520,7 +520,7 @@ h6,
     left: 0;
     width: 50px;
     height: 2px;
-    background: #f4d73b; /* Jaune */
+    background: #FF4500; /* Jaune */
     animation: dynamic-line 1.5s infinite;
 }
 
@@ -546,13 +546,13 @@ h6,
 
 /* Couleur et style des icônes */
 .fa-check-circle {
-    color: #4db925; /* Vert principal */
+    color: #00473f; /* Vert principal */
     margin-right: 10px; /* Espacement entre l'icône et le texte */
 }
 
 /* Icônes au survol */
 .fa-check-circle:hover {
-    color: #f4d73b; /* Jaune secondaire au survol */
+    color: #FF4500; /* Jaune secondaire au survol */
     transform: scale(1.2); /* Agrandissement subtil */
 }
 
@@ -563,29 +563,29 @@ h5 .fa {
 
 /* Icônes spécifiques aux autres sections (si applicable) */
 .fa-tooth {
-    color: #4db925; /* Vert principal */
+    color: #00473f; /* Vert principal */
     font-size: 2rem; /* Taille augmentée pour mettre en avant */
     margin-right: 10px;
 }
 
 .fa-tooth:hover {
-    color: #f4d73b; /* Jaune secondaire au survol */
+    color: #FF4500; /* Jaune secondaire au survol */
     transform: rotate(15deg); /* Rotation pour un effet interactif */
 }
 
 .fa-phone {
-    color: #f4d73b; /* Jaune secondaire */
+    color: #FF4500; /* Jaune secondaire */
     font-size: 1.8rem;
 }
 
 .fa-phone:hover {
-    color: #4db925; /* Vert principal au survol */
+    color: #00473f; /* Vert principal au survol */
     transform: scale(1.1); /* Agrandissement subtil */
 }
 
 /*Pour les services*/
 .section-title h5 {
-    color: #4db925 !important;
+    color: #00473f !important;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -596,12 +596,12 @@ h5 .fa {
 /*Pour le Pricing*/
 /* Couleur des prix */
 .price-carousel .price-item .text-warning h2 {
-    color: #ffc107; /* Jaune Bootstrap */
+    color: #FF4500; /* Jaune Bootstrap */
 }
 
 /* Couleur des icônes */
 .price-carousel .d-flex i {
-    color: #ffc107; /* Jaune Bootstrap */
+    color: #FF4500; /* Jaune Bootstrap */
 }
 
 
@@ -609,19 +609,19 @@ h5 .fa {
 
 /* Icônes de la liste Quick Links et Popular Links */
 .container-fluid.bg-dark .bi {
-    color: #ffc107 !important; /* Couleur jaune */
+    color: #FF4500 !important; /* Couleur jaune */
 }
 
 /* Icônes des sections Get In Touch */
 .container-fluid.bg-dark .bi-geo-alt,
 .container-fluid.bg-dark .bi-envelope-open,
 .container-fluid.bg-dark .bi-telephone {
-    color: #ffc107 !important; /* Couleur jaune */
+    color: #FF4500 !important; /* Couleur jaune */
 }
 
 /* Icônes des boutons Follow Us */
 .container-fluid.bg-dark .btn-primary i {
-    color: #ffc107 !important; /* Couleur jaune */
+    color: #FF4500 !important; /* Couleur jaune */
 }
 
 
@@ -629,13 +629,13 @@ h5 .fa {
 
 /* Couleur de fond jaune pour le bouton */
 .btn-contact {
-    background-color: #f4d73b; /* Jaune */
+    background-color: #FF4500; /* Jaune */
     border: none; /* Enlever la bordure par défaut */
     color: white; /* Texte en blanc */
 }
 
 /* Effet de survol en vert */
 .btn-contact:hover {
-    background-color: #4db925; /* Vert */
+    background-color: #00473f; /* Vert */
     color: white; /* Conserver le texte en blanc */
 }
