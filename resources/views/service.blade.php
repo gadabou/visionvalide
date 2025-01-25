@@ -39,8 +39,8 @@
     <!-- Hero End -->
 
 
-  <!-- Service Start -->
-  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row g-5 mb-5">
                 <!--div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
@@ -60,7 +60,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-1.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Cosmetic Dentistry</h5>
+                                <h5 class="m-0">Vente de vers médicaux</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
@@ -68,10 +68,10 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-2.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Implants</h5>
+                                <h5 class="m-0">Dépistage des maladies oculaires</h5>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-3.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Bridges</h5>
+                                <h5 class="m-0">Bilan visuel complet</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
@@ -91,7 +91,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-4.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Teeth Whitening</h5>
+                                <h5 class="m-0">Prescriptions de lunettes et lentilles </h5>
                             </div>
                         </div>
                     </div>
@@ -107,6 +107,7 @@
         </div>
     </div>
     <!-- Service End -->
+
     <br><br><br><br><br>
 
 @endsection

@@ -33,6 +33,7 @@ class ProductController extends Controller
     {
         // La dimension des images doivent normalement etre 500x500
         $code = generateCode('PROD', Product::max('id'));
+        //$code = "PROD01";
         $main_image_path = null;
         if ($request->hasFile('main_image_path')) {
             $main_image_path = Storage::disk('public')->put("product_images/$code", $request->main_image_path);

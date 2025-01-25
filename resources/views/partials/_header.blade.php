@@ -58,12 +58,14 @@
                     </div>
                 </div>
                 <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
-                <a href="{{route('store')}}" class="nav-item nav-link">Boutique</a>
+                <a href="{{route('shop')}}" class="nav-item nav-link">Boutique</a>
                 <a href="{{route('activite')}}" class="nav-item nav-link">Pathologie</a>
 
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
             <a href="{{route('appointment')}}" class="btn btn-primary py-2 px-4 ms-3">Prendre rendez-vous</a>
+
+            <a href="{{route('admin.dashboard')}}" target="_blank" class="btn btn-primary py-2 px-4 ms-3"><i class="fa fa-cog me-2"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->

@@ -228,7 +228,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-1.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Cosmetic Dentistry</h5>
+                                <h5 class="m-0">Vente de vers médicaux</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
@@ -236,7 +236,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-2.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Implants</h5>
+                                <h5 class="m-0">Dépistage des maladies oculaires</h5>
                             </div>
                         </div>
 
@@ -251,7 +251,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-3.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Bridges</h5>
+                                <h5 class="m-0">Bilan visuel complet</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
@@ -259,7 +259,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/service-4.jpg')}}" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Teeth Whitening</h5>
+                                <h5 class="m-0">Prescriptions de lunettes et lentilles </h5>
                             </div>
                         </div>
                     </div>
@@ -398,15 +398,14 @@
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
                     <div class="section-title bg-light rounded h-100 p-5">
-                        <h5 class="position-relative d-inline-block  text-uppercase">Our Dentist</h5>
-                        <h1 class="display-6 mb-4">Meet Our Certified & Experienced Dentist</h1>
-                        <a href="Prendre un rendez vous.html" class="btn btn-primary py-3 px-5">Prendre un rendez vous</a>
+                        <h5 class="position-relative d-inline-block  text-uppercase">Notre équipe</h5>
+                        <h1 class="display-6 mb-4">Notre vaillante équipe</h1>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
-                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team-1.jpg')}}" alt="">
+                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team_1.webp')}}" alt="">
                             <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -415,15 +414,15 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
-                            <p class=" mb-0">Implant Surgeon</p>
+                            <h4 class="mb-2">Dr Israel TCHODJOOU</h4>
+                            <p class=" mb-0">Directeur</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
-                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team-2.jpg')}}" alt="">
+                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team_1.webp')}}" alt="">
                             <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -432,7 +431,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2">Mme. Jeanne KALAO</h4>
                             <p class=" mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -440,7 +439,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
-                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team-3.jpg')}}" alt="">
+                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team_1.webp')}}" alt="">
                             <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -449,15 +448,15 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
-                            <p class=" mb-0">Implant Surgeon</p>
+                            <h4 class="mb-2">M. Yendoutien KOLANI</h4>
+                            <p class=" mb-0">Médécin</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
-                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team-4.jpg')}}" alt="">
+                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team_1.webp')}}" alt="">
                             <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -466,15 +465,15 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
-                            <p class=" mb-0">Implant Surgeon</p>
+                            <h4 class="mb-2">Dr. Christ YAPO</h4>
+                            <p class=" mb-0">Médécien</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
-                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team-5.jpg')}}" alt="">
+                            <img class="img-fluid rounded-top w-100" src="{{asset('assets/img/team_1.webp')}}" alt="">
                             <div class="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -492,7 +491,6 @@
         </div>
     </div>
     <!-- Team End -->
-
 
     <!-- Newsletter Start -->
     <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
