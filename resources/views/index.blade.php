@@ -285,7 +285,7 @@
                     <div class="offer-text text-center rounded p-5">
                         <h1 class="display-5 text-white">Save 30% On Your First Dental Checkup</h1>
                         <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod diam duo lorem magna sit dolore sed et.</p>
-                        <a href="Prendre un rendez vous.html" class="btn btn-dark py-3 px-5 me-3">Prendre un rendez vous</a>
+                        <a href="" class="btn btn-light py-3 px-5">Prendre un rendez vous</a>
                         <a href="" class="btn btn-light py-3 px-5">Read More</a>
                     </div>
                 </div>
